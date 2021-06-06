@@ -20,7 +20,7 @@ public class Calculator extends HttpServlet {
           response.setContentType("text/html");
           PrintWriter out= response.getWriter();
 
-	//  InetAddress my_address = InetAddress.getLocalHost();
+	//  InetAddress my_address = InetAddress.getLocalHost(); notes
 
     	  out.println("<html>");
     	  out.println("<body bgcolor=\"Aqua\">");
